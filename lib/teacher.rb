@@ -1,7 +1,9 @@
 class Teacher < User
+
   def teach
       KNOWLEDGE.sample
-    end
+  end
+
   KNOWLEDGE = ["a String is a type of data in Ruby",
               "programming is hard, but it's worth it",
               "javascript async web request",
