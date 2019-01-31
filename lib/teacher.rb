@@ -1,4 +1,4 @@
-class Teacher
+class Teacher < 
 
   KNOWLEDGE = ["a String is a type of data in Ruby",
               "programming is hard, but it's worth it",
@@ -9,5 +9,8 @@ class Teacher
               "programming computers hacking learning terminal",
               "bash Ruby rvm update certs"]
 
+              def teach
+                  KNOWLEDGE.sample
+                end
 
 end
